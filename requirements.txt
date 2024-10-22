@@ -1,0 +1,7 @@
+pytest
+nbmake
+chgnet
+ase
+mace-torch
+matgl
+sevenn
