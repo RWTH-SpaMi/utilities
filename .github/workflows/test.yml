@@ -36,7 +36,7 @@ jobs:
           enable-cache: true
       - name: Install dependencies
         run: |
-          uv pip install requirements.txt --system
+          uv pip install --requirement requirements.txt --system
       - name: pytest
         run: |
           pytest --collect-only --nbmake "./ipynb"
