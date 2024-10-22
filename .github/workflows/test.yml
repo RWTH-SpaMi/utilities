@@ -39,4 +39,5 @@ jobs:
           uv pip install --requirement requirements.txt --system
       - name: pytest
         run: |
+          shopt -s globstar  # Enable recursive globbing
           pytest --nbmake **/*ipynb
