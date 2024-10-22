@@ -39,4 +39,4 @@ jobs:
           uv pip install tests/requirements.txt
       - name: pytest
         run: |
-          pytest --collect-only --nbmake "./ipynb" 
+          pytest --collect-only --nbmake "./ipynb"
